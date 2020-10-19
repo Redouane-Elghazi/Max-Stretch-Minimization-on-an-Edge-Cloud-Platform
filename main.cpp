@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){ // n, sample, seed
     int sample_size = atoi(argv[2]);
     int seed = atoi(argv[3]);
     double ccr = atof(argv[4]);
-    double load = 0.05;
+    double load = 0.2;
     TaskCreator creator(seed);
     KangInstance instanciator(seed);
     double srpt_avg = 0, greedy_avg = 0, ssfedf2_avg = 0, bender_avg = 0;
